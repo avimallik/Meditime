@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">মেডি টাইম</string>
+
+    <!-- Main Activity/Fragment -->
+    <string name="empty_view_text">অ্যালার্ম বাটন এ প্রেস করে ঔষধ অ্যালার্ম যুক্ত করুন</string>
+
+    <!-- Edit Alarm Activity/Fragment -->
+    <string name="time">Time</string>
+    <string name="label">Label</string>
+    <string name="days">Days</string>
+    <string name="edit_alarm">Edit Alarm</string>
+    <string name="add_alarm">অ্যালার্ম যুক্তকরন</string>
+    <string name="add_label_hint">Add a label!</string>
+
+    <string name="update_complete">পরিবর্তন হ​য়েছে</string>
+    <string name="update_failed">Update Failed</string>
+    <string name="delete_complete">Medicine Alarm Deleted</string>
+    <string name="delete_failed">Delete Failed</string>
+    <string name="delete_dialog_title">অনুমোদন মুছে ফেলার</string>
+    <string name="delete_dialog_content">আপনি কি অ্যালার্ম মুছে ফেলতে চান ?</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+
+    <!-- Edit Alarm Menu -->
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Alarm Landing Page Activity/Fragment -->
+    <string name="launch_main_activity">Launch Main Activity</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- Days -->
+    <string name="monday">সোমবার</string>
+    <string name="tuesday">মঙ্গলবার</string>
+    <string name="wednesday">বুধবার</string>
+    <string name="thursday">বৃহস্পতিবার</string>
+    <string name="friday">শুক্রবার</string>
+    <string name="saturday">শনিবার</string>
+    <string name="sunday">রবিবার</string>
+
+    <string name="title_activity_add_edit">Add_edit</string>
+    <string name="title_activity_notifier">Notifier</string>
+
+    <!--- Dialog -->
+    <string name="dialog">ঔষধ নিন</string>
+    <string name="medicine_name">ঔষধ এর নাম</string>
+    <string name="med_type">ঔষধ এর ধরন</string>
+    <string name="schedule">Schedule</string>
+
+    <string name="after_meal">খাওয়ার পর</string>
+    <string name="before_meal">খাওয়ার আগে</string>
+    <string name="anytime">যেকোনো সময়</string>
+
+    <string name="alarm_off">অ্যালার্ম বন্ধ</string>
+    <string name="title_activity_panel">Panel</string>
+
+    <string name="english">English</string>
+    <string name="bangla">বাংলা</string>
+    <string name="About">অ্যাপ্লিকেশান সম্পর্কে</string>
+
+    <!--UI Strings-->
+    <string name="med_take">ঔষধ নেওয়ার সময়</string>
+    <string name="med_take_days">ঔষধ নেওয়ার দিনগুলি</string>
+    <string name="select_all">সব বাছাই</string>
+
+    <string name="tablet">ট্যাবলেট</string>
+    <string name="capsule">ক্যাপসুল</string>
+    <string name="syrup">সিরাপ</string>
+    <string name="injection">ইনজেকশন</string>
+    <string name="saline">সেলাইন</string>
+    <string name="ointment">মলম</string>
+    <string name="not_know">জানা নাই</string>
+
+
+    <string name="type_of_med_string">ঔষধ এর ধরন</string>
+    <string name="schedule_string">ঔষধ এর তফসিল</string>
+    <string name="back_press_msg">বন্ধ করার জন্য দুই বার পিছনে প্রেস করুন !</string>
+
+    //Days String
+    <string name="days_string">সোম মঙ্গ বুধ বৃহ শুক্র শনি রবি</string>
+
+    <string name="about_des">
+        মেডি টাইম সহজ অ্যালার্ম অ্যাপ্লিকেশন যা রোগীর সঠিক সময়ে তাদের ঔষধ গ্রহণ করতে সহায়তা করে। ঔষধের ধরন, সময়সূচী, নাম ইত্যাদি সম্পর্কে বিশদ তথ্য প্রদান
+        করার জন্য এটি খুব বন্ধুত্বপূর্ণ অ্যাপ্লিকেশন যা রোগীকে তাদের ঔষধ এবং সঠিক তফসিল এ নিতে সহজ করে  । এই  ব্যস্ত জীবনে   কখনও কখনও
+        আমরা আমাদের গুরুত্বপূর্ণ ঔষধ গ্রহণ করতে ভুলে যাই। তাই সঠিক সময়ে যথাযথ ঔষধ গ্রহণ না করা  আমাদের স্বাস্থ্যের জন্য একটি বড় সমস্যা ।
+        ঔষধ গ্রহণ রোগ নিরাময় একটি নিয়মিত কোর্স। মেডি টাইম অ্যাপ্লিকেশন ব্যবহারকারীকে সাহায্য করবে এবং অ্যালার্মের সাথে সাথে মেডিসিনের
+        সম্পূর্ণ তথ্য প্রদান  করে সঠিক সময়ে তাদের ওষুধ গ্রহণ করতে স্মরণ করিয়ে দেবে।
+    </string>
+
+    <string name="about_dedication">মেডি টাইম আমার মাকে নিবেদন করলাম। যে সব সময় ঔষধ খেতে ভুলে যায় </string>
+    <string name="about_dev_info">
+         মেডি টাইম অরুণাভ মল্লিক অভী দ্বারা , কম্পিউটার বিজ্ঞান ও প্রকৌশল বিভাগ, জাতীয় বিশ্ববিদ্যালয়, বাংলাদেশ
+    </string>
+    <string name="about_copyright">মেডি টাইম অরুণাভ মল্লিক অভী দ্বারা © কপিরাইট</string>
+    <string name="ok_dio">ঠিক আছে</string>
+    <string name="title_activity_splash">Medi Time</string>
+
+
+
+</resources>

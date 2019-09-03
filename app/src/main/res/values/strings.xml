@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Medi Time</string>
+
+    <!-- Main Activity/Fragment -->
+    <string name="empty_view_text">Press alarm Button &amp; add Medicine alarm</string>
+
+    <!-- Edit Alarm Activity/Fragment -->
+    <string name="time">Time</string>
+    <string name="label">Label</string>
+    <string name="days">Days</string>
+    <string name="edit_alarm">Edit Alarm</string>
+    <string name="add_alarm">Add Alarm</string>
+    <string name="add_label_hint">Add a label!</string>
+    <string name="update_complete">Changes Saved</string>
+    <string name="update_failed">Update Failed</string>
+    <string name="delete_complete">Medicine Alarm Deleted</string>
+    <string name="delete_failed">Delete Failed</string>
+    <string name="delete_dialog_title">Confirm Delete Alarm</string>
+    <string name="delete_dialog_content">Are you sure you would like to delete this alarm?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Edit Alarm Menu -->
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Alarm Landing Page Activity/Fragment -->
+    <string name="launch_main_activity">Launch Main Activity</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- Days -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="title_activity_add_edit">Add_edit</string>
+    <string name="title_activity_notifier">Notifier</string>
+
+    <!--- Dialog -->
+    <string name="dialog">Time to take</string>
+    <string name="medicine_name">Medicine Name</string>
+    <string name="med_type">Medicine Type</string>
+    <string name="schedule">Schedule</string>
+
+    <string name="after_meal">After Meal</string>
+    <string name="before_meal">Before Meal</string>
+    <string name="anytime">Anytime</string>
+
+    <string name="alarm_off">Alarm Off</string>
+    <string name="title_activity_panel">Panel</string>
+
+    <string name="english">English</string>
+    <string name="bangla">বাংলা</string>
+    <string name="About">About Application</string>
+
+    <!--UI Strings-->
+    <string name="med_take">Time to take Medicine</string>
+    <string name="med_take_days">Days of take Medicine</string>
+    <string name="select_all">Select All</string>
+
+    <string name="tablet">Tablet</string>
+    <string name="capsule">Capsule</string>
+    <string name="syrup">Syrup</string>
+    <string name="injection">Injection</string>
+    <string name="saline">Saline</string>
+    <string name="ointment">Ointment</string>
+    <string name="not_know">Not Known</string>
+    <string name="back_press_msg">Please Double Tap in Back to exit !</string>
+
+
+    <string name="type_of_med_string">Type of Medicine</string>
+    <string name="schedule_string">Schedule</string>
+
+    //Days String
+    <string name="days_string">M Tu W Th F Sa Su</string>
+    <string name="title_activity_splash">Medi Time</string>
+
+    <string name="about_des">
+        Medi Time is simple alarm application to helps patient to takes their medicine to the proper time.
+        it is very user friendly app to provides a details information about a medicine type, Schedule, Name so
+        which helps to make it easy to the patient about their medicine and proper scheduling.in busy life sometimes we forget to take our important medicine.
+        so without taking proper medicine in proper time will causes a big problem to our health. taking medicine is a regular course to cure diseases.
+        the Medi Time Application will helps a user and remind them to take their medicine in proper time by giving alarm as well as full information of a Medicine.
+    </string>
+
+    <string name="about_dedication">Dedicated to My Loving Mom. Who always forget to takes her medicine</string>
+    <string name="about_dev_info">
+        Medi Time powered by Arunav Mallik Avi (Arm Avi). Department of Computer Science &amp; Engineering, National University Bangladesh
+    </string>
+    <string name="about_copyright">Medi Time © Copyright by Arm Avi</string>
+    <string name="ok_dio">Ok</string>
+
+
+
+</resources>

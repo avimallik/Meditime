@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="650dp"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:descendantFocusability="blocksDescendants"
+            android:focusableInTouchMode="true">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="26dp"
+                app:srcCompat="@drawable/icon" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="#FF535353"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView14"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="@string/about_des"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView16"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="@string/about_dedication"
+                android:textColor="#FF535353"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/githubSocio"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/github"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_above="@+id/textView20"
+                android:layout_toLeftOf="@+id/imageView9"
+                android:layout_toStartOf="@+id/imageView9" />
+
+            <ImageView
+                android:id="@+id/facebookSocio"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="8dp"
+                app:srcCompat="@drawable/facebook"
+                android:layout_below="@+id/textView13"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:id="@+id/linkedinSocio"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="8dp"
+                app:srcCompat="@drawable/linkedin"
+                android:layout_above="@+id/textView20"
+                android:layout_toRightOf="@+id/imageView9"
+                android:layout_toEndOf="@+id/imageView9" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/textView17"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/dev" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/facebookSocio"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="@string/about_copyright"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView9"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="@string/about_dev_info" />
+
+        </RelativeLayout>
+    </ScrollView>
+    </ScrollView>
